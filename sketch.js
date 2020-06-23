@@ -1,7 +1,30 @@
-function setup() {
-  createCanvas(400, 400);
+let imagemCenario;
+let imagemPersonagem;
+let cenario;
+let somDoJogo;
+let personagem;
+
+function preload() {
+  imagemCenario = loadImage('imagens/cenario/floresta.png');
+  imagemPersonagem = loadImage('imagens/personagem/correndo.png');
+  somDoJogo = loadSound('sons/trilha_jogo.mp3');
 }
 
+function setup() {
+  // variavel global para pegar a largura e altura da tela
+  createCanvas(windowWidth, windowHeight);
+  // velocidade do cenario
+  cenario = new Cenario(imagemCenario, 3);
+  personagem = new Personagem(imagemPersonagem);
+  frameRate(40);
+
+  somDoJogo.loop();
+}
+
+// funçao para desenhar, visualizar alguma animação na tela
 function draw() {
-  background(220);
+  cenario.exibe();
+  cenario.move();
+
+  personagem.exibe();
 }
