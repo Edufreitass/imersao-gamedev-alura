@@ -6,24 +6,24 @@
 ## Dia 1
 - **Motor do Jogo**
 
-História, Personagem, movimento, background e música.
+Primeiras animações e trilha sonora
 
 ## Dia 2
 - **Inimigos e colisão**
 
-Mais sprites e algoritmos de colisão.
+Inserindo pulo duplo, efeitos sonoros e colisão
 
 ## Dia 3
 - **Mapas, textos e poweup**
 
-Deixando o jogo mais profissional.
+Adicionando novos inimigos e pontuação
 
 ## Dia 4
 - **Gerenciamento de estado**
 
-Telas, estados e história do jogo.
+Aprimorando a frequência de inimigos e criando a tela inicial
 
 ## Dia 5
 - **Adicionando complexidade**
 
-Movimentação diferente dos inimigos e powerups
+Inserindo vidas, criando mapas e exportando o jogo
