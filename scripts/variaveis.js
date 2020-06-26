@@ -11,8 +11,7 @@ let somDoPulo;
 let jogo;
 let fita;
 
-// let cenaAtual = 'telaInicial';
-let cenaAtual = 'jogo';
+let cenaAtual = 'telaInicial';
 let cenas;
 let telaInicial;
 let botaoGerenciador;
