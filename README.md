@@ -1,5 +1,7 @@
 # IMERSÃO - Java Script - Game Dev - Alura :man_technologist:
 
+![certificado](https://user-images.githubusercontent.com/56324728/85878919-db9ed200-b7af-11ea-8273-cbe6f456c070.png)
+
 - Desenvolva um Game, utilizando **P5JS** e **JavaScript**.
 ## Dia 1
 - **Motor do Jogo**
